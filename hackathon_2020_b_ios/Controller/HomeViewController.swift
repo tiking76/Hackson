@@ -25,10 +25,18 @@ class HomeViewController: UIViewController {
   }
 
 
+  let ContextLable : UILabel = {
+    let label = UILabel()
+    label.text = "勉強時間を選んでください！"
+    label.font = UIFont(name: "HiraMinProN-W3", size: 20)
+    return label
+  }()
+
+
   let HomeLabel : UILabel = {
     let label = UILabel()
     label.text = "HOME"
-    label.font = UIFont(name: "HiraMinProN-W3", size: 20)
+    label.font = UIFont(name: "Bold", size: 100)
     return label
   }()
 
@@ -65,11 +73,14 @@ class HomeViewController: UIViewController {
 
   func configureUI(){
     view.addSubview(HomeLabel)
+    view.addSubview(ContextLable)
     view.addSubview(TimerButton30)
     view.addSubview(TimerButton60)
-    HomeLabel.anchor(top: view.safeAreaLayoutGuide.topAnchor, right: view.safeAreaLayoutGuide.rightAnchor, paddingTop: 30, paddingRight: 160, width: 100, height: 56)
+    HomeLabel.anchor(top: view.safeAreaLayoutGuide.topAnchor, right: view.safeAreaLayoutGuide.rightAnchor, paddingTop: 30, paddingRight: 147, width: 100, height: 56)
     HomeLabel.layer.cornerRadius = 56/2
-    TimerButton30.anchor(top: HomeLabel.safeAreaLayoutGuide.topAnchor, right: view.safeAreaLayoutGuide.rightAnchor, paddingTop: 100, paddingRight: 160, width: 100, height: 56)
+    ContextLable.anchor(top: HomeLabel.safeAreaLayoutGuide.topAnchor, right: view.safeAreaLayoutGuide.rightAnchor, paddingTop: 50, paddingRight: 70, width: 265, height: 56)
+    ContextLable.layer.cornerRadius = 56/2
+    TimerButton30.anchor(top: ContextLable.safeAreaLayoutGuide.topAnchor, right: view.safeAreaLayoutGuide.rightAnchor, paddingTop: 100, paddingRight: 160, width: 100, height: 56)
     TimerButton30.layer.cornerRadius = 56/2
     TimerButton60.anchor(top: TimerButton30.safeAreaLayoutGuide.topAnchor, right: view.safeAreaLayoutGuide.rightAnchor, paddingTop: 200, paddingRight: 160, width: 100, height: 56)
     TimerButton60.layer.cornerRadius = 56/2
