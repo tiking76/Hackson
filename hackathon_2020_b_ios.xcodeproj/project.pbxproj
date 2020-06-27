@@ -18,6 +18,7 @@
 		DAC7631524A6F56C004F8D3C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC7631424A6F56C004F8D3C /* HomeViewController.swift */; };
 		DAC7631824A6F692004F8D3C /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC7631724A6F692004F8D3C /* Extentions.swift */; };
 		DAC7631A24A6FC72004F8D3C /* Main.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC7631924A6FC72004F8D3C /* Main.Storyboard */; };
+		FB77465CD425B63CE21AE76B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7740C02065F1293C6CE59F /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		DAC7631424A6F56C004F8D3C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DAC7631724A6F692004F8D3C /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		DAC7631924A6FC72004F8D3C /* Main.Storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.Storyboard; sourceTree = "<group>"; };
+		FB7740C02065F1293C6CE59F /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		119BCE7024A718AC00C10D2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		11CDD8F824A6DF4D006EDEBB = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +78,7 @@
 		11CDD90324A6DF4D006EDEBB /* hackathon_2020_b_ios */ = {
 			isa = PBXGroup;
 			children = (
+				119BCE7024A718AC00C10D2E /* View */,
 				DAC7631624A6F686004F8D3C /* Utilities */,
 				DAC7631124A6F3D2004F8D3C /* Controller */,
 				11CDD90424A6DF4D006EDEBB /* AppDelegate.swift */,
@@ -96,6 +106,7 @@
 			children = (
 				DAC7631224A6F3FF004F8D3C /* MainTabViewController.swift */,
 				DAC7631424A6F56C004F8D3C /* HomeViewController.swift */,
+				FB7740C02065F1293C6CE59F /* LoadingView.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -208,6 +219,7 @@
 				DAC7631324A6F3FF004F8D3C /* MainTabViewController.swift in Sources */,
 				11CDD90524A6DF4D006EDEBB /* AppDelegate.swift in Sources */,
 				11CDD90724A6DF4D006EDEBB /* SceneDelegate.swift in Sources */,
+				FB77465CD425B63CE21AE76B /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

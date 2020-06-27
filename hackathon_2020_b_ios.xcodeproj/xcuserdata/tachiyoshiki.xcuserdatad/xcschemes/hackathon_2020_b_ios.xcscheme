@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "11CDD90024A6DF4D006EDEBB"
+               BuildableName = "hackathon_2020_b_ios.app"
+               BlueprintName = "hackathon_2020_b_ios"
+               ReferencedContainer = "container:hackathon_2020_b_ios.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "11CDD90024A6DF4D006EDEBB"
+            BuildableName = "hackathon_2020_b_ios.app"
+            BlueprintName = "hackathon_2020_b_ios"
+            ReferencedContainer = "container:hackathon_2020_b_ios.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>

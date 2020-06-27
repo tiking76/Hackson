@@ -1,7 +1,7 @@
 BCSymbolMap Version: 2.0
 Apple clang version 11.0.3 (clang-1103.0.32.62)
-/Users/kajimurarita/Library/Caches/org.carthage.CarthageKit/DerivedData/11.5_11E608c/SDWebImage/5.8.2/Build/Intermediates.noindex/ArchiveIntermediates/SDWebImageMapKit/IntermediateBuildFilesPath/SDWebImage.build/Release-iphoneos/SDWebImageMapKit.build/DerivedSources/SDWebImageMapKit_vers.c
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage
+/Users/tachiyoshiki/Library/Caches/org.carthage.CarthageKit/DerivedData/11.5_11E608c/SDWebImage/5.8.2/Build/Intermediates.noindex/ArchiveIntermediates/SDWebImageMapKit/IntermediateBuildFilesPath/SDWebImage.build/Release-iphoneos/SDWebImageMapKit.build/DerivedSources/SDWebImageMapKit_vers.c
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage
 -[MKAnnotationView(WebCache) sd_setImageWithURL:]
 -[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:]
 -[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:]
@@ -27,7 +27,7 @@ _OBJC_SELECTOR_REFERENCES_.10
 __OBJC_$_CATEGORY_INSTANCE_METHODS_MKAnnotationView_$_WebCache
 __OBJC_$_CATEGORY_MKAnnotationView_$_WebCache
 _OBJC_LABEL_CATEGORY_$
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImageMapKit/MapKit/MKAnnotationView+WebCache.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImageMapKit/MapKit/MKAnnotationView+WebCache.m
 __destroy_helper_block_e8_32s
 __copy_helper_block_e8_32b
 __101-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:context:progress:completed:]_block_invoke.7

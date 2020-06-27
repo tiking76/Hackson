@@ -1,8 +1,8 @@
 BCSymbolMap Version: 2.0
 Apple clang version 11.0.3 (clang-1103.0.32.62)
-/Users/kajimurarita/Library/Caches/org.carthage.CarthageKit/DerivedData/11.5_11E608c/SDWebImage/5.8.2/Build/Intermediates.noindex/ArchiveIntermediates/SDWebImage/IntermediateBuildFilesPath/SDWebImage.build/Release-iphoneos/SDWebImage.build/DerivedSources/SDWebImage_vers.c
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageGraphics.m
+/Users/tachiyoshiki/Library/Caches/org.carthage.CarthageKit/DerivedData/11.5_11E608c/SDWebImage/5.8.2/Build/Intermediates.noindex/ArchiveIntermediates/SDWebImage/IntermediateBuildFilesPath/SDWebImage.build/Release-iphoneos/SDWebImage.build/DerivedSources/SDWebImage_vers.c
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageGraphics.m
 SDGraphicsGetImageFromCurrentImageContext
 SDWebImage/Core/SDImageGraphics.m
 SDGraphicsEndImageContext
@@ -28,7 +28,7 @@ __OBJC_$_INSTANCE_VARIABLES_SDImageFrame
 __OBJC_$_PROP_LIST_SDImageFrame
 __OBJC_CLASS_RO_$_SDImageFrame
 _OBJC_LABEL_CLASS_$
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageFrame.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageFrame.m
 SDWebImage/Core/SDImageFrame.m
 SDWebImage/Core/SDImageFrame.h
 -[UIColor(SDHexString) sd_hexString]
@@ -36,14 +36,14 @@ __OBJC_$_CATEGORY_INSTANCE_METHODS_UIColor_$_SDHexString
 __OBJC_$_PROP_LIST_UIColor_$_SDHexString
 __OBJC_$_CATEGORY_UIColor_$_SDHexString
 _OBJC_LABEL_CATEGORY_$
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/UIColor+SDHexString.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/UIColor+SDHexString.m
 SDWebImage/Private/UIColor+SDHexString.m
 -[UIImage(ExtendedCacheData) sd_extendedObject]
 -[UIImage(ExtendedCacheData) setSd_extendedObject:]
 __OBJC_$_CATEGORY_INSTANCE_METHODS_UIImage_$_ExtendedCacheData
 __OBJC_$_PROP_LIST_UIImage_$_ExtendedCacheData
 __OBJC_$_CATEGORY_UIImage_$_ExtendedCacheData
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIImage+ExtendedCacheData.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIImage+ExtendedCacheData.m
 SDWebImage/Core/UIImage+ExtendedCacheData.m
 -[SDGraphicsImageRendererFormat scale]
 -[SDGraphicsImageRendererFormat setScale:]
@@ -118,7 +118,7 @@ _OBJC_IVAR_$_SDGraphicsImageRenderer._size
 __OBJC_$_INSTANCE_VARIABLES_SDGraphicsImageRenderer
 __OBJC_$_PROP_LIST_SDGraphicsImageRenderer
 __OBJC_CLASS_RO_$_SDGraphicsImageRenderer
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDGraphicsImageRenderer.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDGraphicsImageRenderer.m
 SDWebImage/Core/SDGraphicsImageRenderer.m
 __destroy_helper_block_e8_32s
 __copy_helper_block_e8_32b
@@ -136,7 +136,7 @@ __OBJC_$_CATEGORY_INSTANCE_METHODS_UIImage_$_ForceDecode
 __OBJC_$_CATEGORY_CLASS_METHODS_UIImage_$_ForceDecode
 __OBJC_$_PROP_LIST_UIImage_$_ForceDecode
 __OBJC_$_CATEGORY_UIImage_$_ForceDecode
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIImage+ForceDecode.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIImage+ForceDecode.m
 SDWebImage/Core/UIImage+ForceDecode.m
 -[SDWebImageOptionsResult initWithOptions:context:]
 -[SDWebImageOptionsResult options]
@@ -178,7 +178,7 @@ _OBJC_IVAR_$_SDWebImageOptionsProcessor._block
 __OBJC_$_INSTANCE_VARIABLES_SDWebImageOptionsProcessor
 __OBJC_$_PROP_LIST_SDWebImageOptionsProcessor
 __OBJC_CLASS_RO_$_SDWebImageOptionsProcessor
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageOptionsProcessor.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageOptionsProcessor.m
 SDWebImage/Core/SDWebImageOptionsProcessor.m
 SDWebImage/Core/SDWebImageOptionsProcessor.h
 -[SDWebImageDownloaderDecryptor initWithBlock:]
@@ -213,7 +213,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.63
 _OBJC_SELECTOR_REFERENCES_.66
 __OBJC_$_CATEGORY_CLASS_METHODS_SDWebImageDownloaderDecryptor_$_Conveniences
 __OBJC_$_CATEGORY_SDWebImageDownloaderDecryptor_$_Conveniences
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageDownloaderDecryptor.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageDownloaderDecryptor.m
 __62+[SDWebImageDownloaderDecryptor(Conveniences) base64Decryptor]_block_invoke_2
 SDWebImage/Core/SDWebImageDownloaderDecryptor.m
 __62+[SDWebImageDownloaderDecryptor(Conveniences) base64Decryptor]_block_invoke
@@ -237,7 +237,7 @@ _OBJC_IVAR_$_SDWebImageCacheKeyFilter._block
 __OBJC_$_INSTANCE_VARIABLES_SDWebImageCacheKeyFilter
 __OBJC_$_PROP_LIST_SDWebImageCacheKeyFilter
 __OBJC_CLASS_RO_$_SDWebImageCacheKeyFilter
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageCacheKeyFilter.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageCacheKeyFilter.m
 SDWebImage/Core/SDWebImageCacheKeyFilter.m
 -[SDDisplayLink dealloc]
 -[SDDisplayLink initWithTarget:selector:]
@@ -266,38 +266,38 @@ _OBJC_IVAR_$_SDDisplayLink._displayLink
 __OBJC_$_INSTANCE_VARIABLES_SDDisplayLink
 __OBJC_$_PROP_LIST_SDDisplayLink
 __OBJC_CLASS_RO_$_SDDisplayLink
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/SDDisplayLink.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/SDDisplayLink.m
 SDWebImage/Private/SDDisplayLink.m
 SDWebImage/Private/SDDisplayLink.h
 +[UIImage(GIF) sd_imageWithGIFData:]
 __OBJC_$_CATEGORY_CLASS_METHODS_UIImage_$_GIF
 __OBJC_$_CATEGORY_UIImage_$_GIF
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIImage+GIF.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIImage+GIF.m
 SDWebImage/Core/UIImage+GIF.m
 +[SDDeviceHelper totalMemory]
 +[SDDeviceHelper freeMemory]
 __OBJC_$_CLASS_METHODS_SDDeviceHelper
 __OBJC_METACLASS_RO_$_SDDeviceHelper
 __OBJC_CLASS_RO_$_SDDeviceHelper
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/SDDeviceHelper.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/SDDeviceHelper.m
 SDWebImage/Private/SDDeviceHelper.m
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/SDAssociatedObject.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/SDAssociatedObject.m
 SDImageCopyAssociatedObject
 SDWebImage/Private/SDAssociatedObject.m
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/NSButton+WebCache.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/NSButton+WebCache.m
 -[UIImage(MemoryCacheCost) sd_memoryCost]
 -[UIImage(MemoryCacheCost) setSd_memoryCost:]
 __OBJC_$_CATEGORY_INSTANCE_METHODS_UIImage_$_MemoryCacheCost
 __OBJC_$_PROP_LIST_UIImage_$_MemoryCacheCost
 __OBJC_$_CATEGORY_UIImage_$_MemoryCacheCost
 _OBJC_SELECTOR_REFERENCES_.13
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIImage+MemoryCacheCost.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIImage+MemoryCacheCost.m
 SDWebImage/Core/UIImage+MemoryCacheCost.m
 SDMemoryCacheCostForImage
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/SDInternalMacros.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/SDInternalMacros.m
 sd_executeCleanupBlock
 SDWebImage/Private/SDInternalMacros.m
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageError.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageError.m
 +[SDImageCoderHelper animatedImageWithFrames:]
 ___46+[SDImageCoderHelper animatedImageWithFrames:]_block_invoke
 ___copy_helper_block_e8_32s40r
@@ -353,7 +353,7 @@ _OBJC_SELECTOR_REFERENCES_.59
 __OBJC_$_CLASS_METHODS_SDImageCoderHelper
 __OBJC_METACLASS_RO_$_SDImageCoderHelper
 __OBJC_CLASS_RO_$_SDImageCoderHelper
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageCoderHelper.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageCoderHelper.m
 SDWebImage/Core/SDImageCoderHelper.m
 __destroy_helper_block_e8_32r40r
 __copy_helper_block_e8_32r40r
@@ -416,7 +416,7 @@ __OBJC_$_INSTANCE_METHODS_SDMemoryCache
 __OBJC_$_INSTANCE_VARIABLES_SDMemoryCache
 __OBJC_$_PROP_LIST_SDMemoryCache
 __OBJC_CLASS_RO_$_SDMemoryCache
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDMemoryCache.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDMemoryCache.m
 SDWebImage/Core/SDMemoryCache.m
 SDWebImage/Core/SDMemoryCache.h
 +[SDImagePipelineTransformer transformerWithTransformers:]
@@ -620,14 +620,14 @@ _OBJC_IVAR_$_SDImageFilterTransformer._filter
 __OBJC_$_INSTANCE_VARIABLES_SDImageFilterTransformer
 __OBJC_$_PROP_LIST_SDImageFilterTransformer
 __OBJC_CLASS_RO_$_SDImageFilterTransformer
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageTransformer.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageTransformer.m
 SDWebImage/Core/SDImageTransformer.m
 SDWebImage/Core/SDImageTransformer.h
 __copy_helper_block_e8_32s
 __54+[SDImagePipelineTransformer cacheKeyForTransformers:]_block_invoke
 SDThumbnailedKeyForKey
 SDTransformedKeyForKey
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/NSImage+Compatibility.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/NSImage+Compatibility.m
 -[SDWebImageActivityIndicator init]
 -[SDWebImageActivityIndicator commonInit]
 -[SDWebImageActivityIndicator startAnimatingIndicator]
@@ -693,7 +693,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.107
 _OBJC_SELECTOR_REFERENCES_.109
 __OBJC_$_CATEGORY_CLASS_METHODS_SDWebImageProgressIndicator_$_Conveniences
 __OBJC_$_CATEGORY_SDWebImageProgressIndicator_$_Conveniences
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageIndicator.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageIndicator.m
 SDWebImage/Core/SDWebImageIndicator.m
 SDWebImage/Core/SDWebImageIndicator.h
 -[SDAsyncBlockOperation initWithBlock:]
@@ -718,7 +718,7 @@ __OBJC_$_INSTANCE_METHODS_SDAsyncBlockOperation
 __OBJC_$_INSTANCE_VARIABLES_SDAsyncBlockOperation
 __OBJC_$_PROP_LIST_SDAsyncBlockOperation
 __OBJC_CLASS_RO_$_SDAsyncBlockOperation
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/SDAsyncBlockOperation.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/SDAsyncBlockOperation.m
 SDWebImage/Private/SDAsyncBlockOperation.m
 -[SDWebImageDownloaderRequestModifier initWithBlock:]
 +[SDWebImageDownloaderRequestModifier requestModifierWithBlock:]
@@ -754,7 +754,7 @@ _OBJC_SELECTOR_REFERENCES_.72
 ___block_descriptor_56_e8_32s40s48s_e36_"NSURLRequest"16?0"NSURLRequest"8l
 __OBJC_$_CATEGORY_INSTANCE_METHODS_SDWebImageDownloaderRequestModifier_$_Conveniences
 __OBJC_$_CATEGORY_SDWebImageDownloaderRequestModifier_$_Conveniences
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageDownloaderRequestModifier.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageDownloaderRequestModifier.m
 __destroy_helper_block_e8_32s40s48s
 __copy_helper_block_e8_32s40s48s
 __81-[SDWebImageDownloaderRequestModifier(Conveniences) initWithMethod:headers:body:]_block_invoke
@@ -791,7 +791,7 @@ _OBJC_IVAR_$_SDImageLoadersManager._loadersLock
 __OBJC_$_INSTANCE_VARIABLES_SDImageLoadersManager
 __OBJC_$_PROP_LIST_SDImageLoadersManager
 __OBJC_CLASS_RO_$_SDImageLoadersManager
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageLoadersManager.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageLoadersManager.m
 SDWebImage/Core/SDImageLoadersManager.m
 __38+[SDImageLoadersManager sharedManager]_block_invoke
 -[UIImageView(WebCache) sd_setImageWithURL:]
@@ -807,7 +807,7 @@ ___96-[UIImageView(WebCache) sd_setImageWithURL:placeholderImage:options:context
 ___block_descriptor_40_e8_32bs_e56_v52?0"UIImage"8"NSData"16"NSError"24q32B40"NSURL"44l
 __OBJC_$_CATEGORY_INSTANCE_METHODS_UIImageView_$_WebCache
 __OBJC_$_CATEGORY_UIImageView_$_WebCache
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIImageView+WebCache.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIImageView+WebCache.m
 __96-[UIImageView(WebCache) sd_setImageWithURL:placeholderImage:options:context:progress:completed:]_block_invoke
 SDWebImage/Core/UIImageView+WebCache.m
 -[SDWebImageDownloaderOperation init]
@@ -1030,7 +1030,7 @@ __OBJC_$_INSTANCE_METHODS_SDWebImageDownloaderOperation
 __OBJC_$_INSTANCE_VARIABLES_SDWebImageDownloaderOperation
 __OBJC_$_PROP_LIST_SDWebImageDownloaderOperation.465
 __OBJC_CLASS_RO_$_SDWebImageDownloaderOperation
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageDownloaderOperation.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageDownloaderOperation.m
 SDWebImage/Core/SDWebImageDownloaderOperation.m
 SDWebImage/Core/SDWebImageDownloaderOperation.h
 __88-[SDWebImageDownloaderOperation callCompletionBlocksWithImage:imageData:error:finished:]_block_invoke.256
@@ -1120,7 +1120,7 @@ __OBJC_METACLASS_RO_$_SDImageHEICCoder
 __OBJC_$_INSTANCE_METHODS_SDImageHEICCoder
 __OBJC_$_PROP_LIST_SDImageHEICCoder
 __OBJC_CLASS_RO_$_SDImageHEICCoder
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageHEICCoder.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageHEICCoder.m
 SDWebImage/Core/SDImageHEICCoder.m
 __41+[SDImageHEICCoder canEncodeToHEIFFormat]_block_invoke
 __41+[SDImageHEICCoder canEncodeToHEICFormat]_block_invoke
@@ -1166,7 +1166,7 @@ __OBJC_$_CATEGORY_INSTANCE_METHODS_UIImage_$_Transform
 __OBJC_$_CATEGORY_UIImage_$_Transform
 _OBJC_CLASSLIST_REFERENCES_$_.105
 _OBJC_SELECTOR_REFERENCES_.107
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIImage+Transform.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIImage+Transform.m
 SDWebImage/Core/UIImage+Transform.m
 SDGetColorFromPixel
 SDCreateCGImageFromCIImage
@@ -1192,7 +1192,7 @@ __OBJC_CLASS_PROTOCOLS_$_SDImageAPNGCoder
 __OBJC_METACLASS_RO_$_SDImageAPNGCoder
 __OBJC_$_PROP_LIST_SDImageAPNGCoder
 __OBJC_CLASS_RO_$_SDImageAPNGCoder
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageAPNGCoder.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageAPNGCoder.m
 SDWebImage/Core/SDImageAPNGCoder.m
 __31+[SDImageAPNGCoder sharedCoder]_block_invoke
 -[SDWebImageDownloaderResponseModifier initWithBlock:]
@@ -1223,7 +1223,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.65
 ___block_descriptor_56_e8_32s40s_e38_"NSURLResponse"16?0"NSURLResponse"8l
 __OBJC_$_CATEGORY_INSTANCE_METHODS_SDWebImageDownloaderResponseModifier_$_Conveniences
 __OBJC_$_CATEGORY_SDWebImageDownloaderResponseModifier_$_Conveniences
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageDownloaderResponseModifier.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageDownloaderResponseModifier.m
 __89-[SDWebImageDownloaderResponseModifier(Conveniences) initWithStatusCode:version:headers:]_block_invoke
 SDWebImage/Core/SDWebImageDownloaderResponseModifier.m
 -[SDWebImageTransition init]
@@ -1270,7 +1270,7 @@ __OBJC_$_PROP_LIST_SDWebImageTransition
 __OBJC_CLASS_RO_$_SDWebImageTransition
 __OBJC_$_CATEGORY_CLASS_METHODS_SDWebImageTransition_$_Conveniences
 __OBJC_$_CATEGORY_SDWebImageTransition_$_Conveniences
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageTransition.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageTransition.m
 SDWebImage/Core/SDWebImageTransition.m
 SDWebImage/Core/SDWebImageTransition.h
 -[SDImageIOCoder dealloc]
@@ -1307,7 +1307,7 @@ _OBJC_IVAR_$_SDImageIOCoder._thumbnailSize
 __OBJC_$_INSTANCE_VARIABLES_SDImageIOCoder
 __OBJC_$_PROP_LIST_SDImageIOCoder
 __OBJC_CLASS_RO_$_SDImageIOCoder
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageIOCoder.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageIOCoder.m
 SDWebImage/Core/SDImageIOCoder.m
 __29+[SDImageIOCoder sharedCoder]_block_invoke
 +[SDWebImagePrefetcher sharedImagePrefetcher]
@@ -1411,7 +1411,7 @@ _OBJC_IVAR_$_SDWebImagePrefetchToken._progressBlock
 __OBJC_$_INSTANCE_VARIABLES_SDWebImagePrefetchToken
 __OBJC_$_PROP_LIST_SDWebImagePrefetchToken
 __OBJC_CLASS_RO_$_SDWebImagePrefetchToken
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImagePrefetcher.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImagePrefetcher.m
 SDWebImage/Core/SDWebImagePrefetcher.m
 SDWebImage/Core/SDWebImagePrefetcher.h
 __52-[SDWebImagePrefetcher callCompletionBlockForToken:]_block_invoke
@@ -1473,7 +1473,7 @@ _OBJC_SELECTOR_REFERENCES_.200
 _OBJC_SELECTOR_REFERENCES_.202
 _OBJC_SELECTOR_REFERENCES_.204
 _OBJC_CLASSLIST_REFERENCES_$_.205
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDDiskCache.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDDiskCache.m
 SDWebImage/Core/SDDiskCache.m
 SDWebImage/Core/SDDiskCache.h
 SDDiskCacheFileNameForKey
@@ -1488,7 +1488,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.23
 __OBJC_$_CLASS_METHODS_SDFileAttributeHelper
 __OBJC_METACLASS_RO_$_SDFileAttributeHelper
 __OBJC_CLASS_RO_$_SDFileAttributeHelper
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/SDFileAttributeHelper.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/SDFileAttributeHelper.m
 SDWebImage/Private/SDFileAttributeHelper.m
 -[SDAnimatedImageView initWithImage:]
 -[SDAnimatedImageView initWithImage:highlightedImage:]
@@ -1604,7 +1604,7 @@ __OBJC_$_INSTANCE_METHODS_SDAnimatedImageView
 __OBJC_$_INSTANCE_VARIABLES_SDAnimatedImageView
 __OBJC_$_PROP_LIST_SDAnimatedImageView
 __OBJC_CLASS_RO_$_SDAnimatedImageView
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDAnimatedImageView.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDAnimatedImageView.m
 SDWebImage/Core/SDAnimatedImageView.m
 SDWebImage/Core/SDAnimatedImageView.h
 __32-[SDAnimatedImageView setImage:]_block_invoke.137
@@ -1695,7 +1695,7 @@ _OBJC_IVAR_$_SDImageCachesManager._cachesLock
 __OBJC_$_INSTANCE_VARIABLES_SDImageCachesManager
 __OBJC_$_PROP_LIST_SDImageCachesManager
 __OBJC_CLASS_RO_$_SDImageCachesManager
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageCachesManager.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageCachesManager.m
 SDWebImage/Core/SDImageCachesManager.m
 SDWebImage/Core/SDImageCachesManager.h
 __copy_helper_block_e8_32b40s48w
@@ -1763,7 +1763,7 @@ _OBJC_IVAR_$_SDWebImageDownloaderConfig._password
 __OBJC_$_INSTANCE_VARIABLES_SDWebImageDownloaderConfig
 __OBJC_$_PROP_LIST_SDWebImageDownloaderConfig
 __OBJC_CLASS_RO_$_SDWebImageDownloaderConfig
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageDownloaderConfig.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageDownloaderConfig.m
 SDWebImage/Core/SDWebImageDownloaderConfig.m
 SDWebImage/Core/SDWebImageDownloaderConfig.h
 __53+[SDWebImageDownloaderConfig defaultDownloaderConfig]_block_invoke
@@ -1825,7 +1825,7 @@ _OBJC_IVAR_$_SDImageCacheConfig._diskCacheClass
 __OBJC_$_INSTANCE_VARIABLES_SDImageCacheConfig
 __OBJC_$_PROP_LIST_SDImageCacheConfig
 __OBJC_CLASS_RO_$_SDImageCacheConfig
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageCacheConfig.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageCacheConfig.m
 SDWebImage/Core/SDImageCacheConfig.m
 SDWebImage/Core/SDImageCacheConfig.h
 __40+[SDImageCacheConfig defaultCacheConfig]_block_invoke
@@ -1896,9 +1896,9 @@ _OBJC_IVAR_$_SDImageIOAnimatedCoder._thumbnailSize
 __OBJC_$_INSTANCE_VARIABLES_SDImageIOAnimatedCoder
 __OBJC_$_PROP_LIST_SDImageIOAnimatedCoder
 __OBJC_CLASS_RO_$_SDImageIOAnimatedCoder
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageIOAnimatedCoder.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageIOAnimatedCoder.m
 SDWebImage/Core/SDImageIOAnimatedCoder.m
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/NSBezierPath+SDRoundedCorners.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/NSBezierPath+SDRoundedCorners.m
 -[SDAnimatedImageView(WebCache) sd_setImageWithURL:]
 -[SDAnimatedImageView(WebCache) sd_setImageWithURL:placeholderImage:]
 -[SDAnimatedImageView(WebCache) sd_setImageWithURL:placeholderImage:options:]
@@ -1911,7 +1911,7 @@ SDWebImage/Core/SDImageIOAnimatedCoder.m
 ___104-[SDAnimatedImageView(WebCache) sd_setImageWithURL:placeholderImage:options:context:progress:completed:]_block_invoke
 __OBJC_$_CATEGORY_INSTANCE_METHODS_SDAnimatedImageView_$_WebCache
 __OBJC_$_CATEGORY_SDAnimatedImageView_$_WebCache
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDAnimatedImageView+WebCache.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDAnimatedImageView+WebCache.m
 __104-[SDAnimatedImageView(WebCache) sd_setImageWithURL:placeholderImage:options:context:progress:completed:]_block_invoke
 SDWebImage/Core/SDAnimatedImageView+WebCache.m
 +[SDImageGIFCoder sharedCoder]
@@ -1928,10 +1928,10 @@ __OBJC_CLASS_PROTOCOLS_$_SDImageGIFCoder
 __OBJC_METACLASS_RO_$_SDImageGIFCoder
 __OBJC_$_PROP_LIST_SDImageGIFCoder
 __OBJC_CLASS_RO_$_SDImageGIFCoder
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageGIFCoder.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageGIFCoder.m
 SDWebImage/Core/SDImageGIFCoder.m
 __30+[SDImageGIFCoder sharedCoder]_block_invoke
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageCoder.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageCoder.m
 +[UIImage(MultiFormat) sd_imageWithData:]
 +[UIImage(MultiFormat) sd_imageWithData:scale:]
 +[UIImage(MultiFormat) sd_imageWithData:scale:firstFrameOnly:]
@@ -1943,7 +1943,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.10
 __OBJC_$_CATEGORY_INSTANCE_METHODS_UIImage_$_MultiFormat
 __OBJC_$_CATEGORY_CLASS_METHODS_UIImage_$_MultiFormat
 __OBJC_$_CATEGORY_UIImage_$_MultiFormat
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIImage+MultiFormat.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIImage+MultiFormat.m
 SDWebImage/Core/UIImage+MultiFormat.m
 +[SDWebImageDownloader initialize]
 +[SDWebImageDownloader sharedDownloader]
@@ -2120,7 +2120,7 @@ __OBJC_$_CATEGORY_INSTANCE_METHODS_SDWebImageDownloader_$_SDImageLoader
 __OBJC_CATEGORY_PROTOCOLS_$_SDWebImageDownloader_$_SDImageLoader
 __OBJC_$_PROP_LIST_SDWebImageDownloader_$_SDImageLoader
 __OBJC_$_CATEGORY_SDWebImageDownloader_$_SDImageLoader
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageDownloader.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageDownloader.m
 SDWebImage/Core/SDWebImageDownloader.m
 SDWebImage/Core/SDWebImageDownloader.h
 __destroy_helper_block_e8_32s40w
@@ -2217,7 +2217,7 @@ _OBJC_IVAR_$_SDAnimatedImagePlayer._displayLink
 __OBJC_$_INSTANCE_VARIABLES_SDAnimatedImagePlayer
 __OBJC_$_PROP_LIST_SDAnimatedImagePlayer
 __OBJC_CLASS_RO_$_SDAnimatedImagePlayer
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDAnimatedImagePlayer.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDAnimatedImagePlayer.m
 SDWebImage/Core/SDAnimatedImagePlayer.m
 SDWebImage/Core/SDAnimatedImagePlayer.h
 __43-[SDAnimatedImagePlayer displayDidRefresh:]_block_invoke
@@ -2227,7 +2227,7 @@ __49-[SDAnimatedImagePlayer didReceiveMemoryWarning:]_block_invoke
 +[NSData(ImageContentType) sd_imageFormatFromUTType:]
 __OBJC_$_CATEGORY_CLASS_METHODS_NSData_$_ImageContentType
 __OBJC_$_CATEGORY_NSData_$_ImageContentType
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/NSData+ImageContentType.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/NSData+ImageContentType.m
 SDWebImage/Core/NSData+ImageContentType.m
 NSMakeRange
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
@@ -2385,7 +2385,7 @@ _OBJC_IVAR_$_SDWebImageCombinedOperation._manager
 __OBJC_$_INSTANCE_VARIABLES_SDWebImageCombinedOperation
 __OBJC_$_PROP_LIST_SDWebImageCombinedOperation
 __OBJC_CLASS_RO_$_SDWebImageCombinedOperation
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageManager.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageManager.m
 SDWebImage/Core/SDWebImageManager.m
 SDWebImage/Core/SDWebImageManager.h
 __104-[SDWebImageManager callCompletionBlockForOperation:completion:image:data:error:cacheType:finished:url:]_block_invoke.233
@@ -2414,7 +2414,7 @@ __97-[SDWebImageManager callOriginalCacheProcessForOperation:url:options:context
 __copy_helper_block_e8_32s40b48s56s64b72w
 __89-[SDWebImageManager callCacheProcessForOperation:url:options:context:progress:completed:]_block_invoke
 __34+[SDWebImageManager sharedManager]_block_invoke
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageCompat.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageCompat.m
 -[SDWeakProxy initWithTarget:]
 +[SDWeakProxy proxyWithTarget:]
 -[SDWeakProxy forwardingTargetForSelector:]
@@ -2440,14 +2440,14 @@ __OBJC_$_INSTANCE_METHODS_SDWeakProxy
 __OBJC_$_INSTANCE_VARIABLES_SDWeakProxy
 __OBJC_$_PROP_LIST_SDWeakProxy
 __OBJC_CLASS_RO_$_SDWeakProxy
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/SDWeakProxy.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/SDWeakProxy.m
 SDWebImage/Private/SDWeakProxy.m
 SDWebImage/Private/SDWeakProxy.h
 __OBJC_PROTOCOL_REFERENCE_$_SDImageCoder
 _OBJC_CLASSLIST_REFERENCES_$_.78
 _SDImageLoaderProgressiveCoderKey
 __OBJC_PROTOCOL_REFERENCE_$_SDAnimatedImageCoder
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageLoader.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageLoader.m
 SDImageLoaderDecodeProgressiveImageData
 SDWebImage/Core/SDImageLoader.m
 SDImageLoaderDecodeImageData
@@ -2513,7 +2513,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.241
 _OBJC_SELECTOR_REFERENCES_.245
 ___block_descriptor_48_e8_32s40r_e37_v32?0"NSTextCheckingResult"8Q16^B24l
 _OBJC_SELECTOR_REFERENCES_.254
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDAnimatedImage.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDAnimatedImage.m
 __SDImageScaleFromPath_block_invoke
 SDWebImage/Core/SDAnimatedImage.m
 SDWebImage/Core/SDAnimatedImage.h
@@ -2541,7 +2541,7 @@ _OBJC_IVAR_$_SDImageCodersManager._codersLock
 __OBJC_$_INSTANCE_VARIABLES_SDImageCodersManager
 __OBJC_$_PROP_LIST_SDImageCodersManager
 __OBJC_CLASS_RO_$_SDImageCodersManager
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageCodersManager.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageCodersManager.m
 SDWebImage/Core/SDImageCodersManager.m
 __37+[SDImageCodersManager sharedManager]_block_invoke
 -[UIButton(WebCache) sd_currentImageURL]
@@ -2578,7 +2578,7 @@ _imageURLStorageKey
 __OBJC_$_CATEGORY_INSTANCE_METHODS_UIButton_$_WebCache
 __OBJC_$_PROP_LIST_UIButton_$_WebCache
 __OBJC_$_CATEGORY_UIButton_$_WebCache
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIButton+WebCache.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIButton+WebCache.m
 SDWebImage/Core/UIButton+WebCache.m
 backgroundImageOperationKeyForState
 imageOperationKeyForState
@@ -2590,7 +2590,7 @@ __102-[UIButton(WebCache) sd_setImageWithURL:forState:placeholderImage:options:c
 imageURLKeyForState
 _OBJC_CLASSLIST_REFERENCES_$_.71
 _OBJC_CLASSLIST_REFERENCES_$_.74
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageCacheDefine.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageCacheDefine.m
 SDImageCacheDecodeImageData
 SDWebImage/Core/SDImageCacheDefine.m
 +[SDImageAssetManager sharedAssetManager]
@@ -2621,14 +2621,14 @@ __OBJC_CLASS_RO_$_SDImageAssetManager
 _SDBundlePreferredScales.scales
 _SDBundlePreferredScales.onceToken
 ___block_literal_global.69
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/SDImageAssetManager.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/SDImageAssetManager.m
 __SDBundlePreferredScales_block_invoke
 SDWebImage/Private/SDImageAssetManager.m
 SDWebImage/Private/SDImageAssetManager.h
 SDBundlePreferredScales
 __41+[SDImageAssetManager sharedAssetManager]_block_invoke
 _OBJC_CLASSLIST_REFERENCES_$_.86
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageDefine.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageDefine.m
 SDScaledImageForScaleFactor
 SDWebImage/Core/SDWebImageDefine.m
 SDScaledImageForKey
@@ -2643,9 +2643,9 @@ _loadOperationKey
 __OBJC_PROTOCOL_REFERENCE_$_SDWebImageOperation
 __OBJC_$_CATEGORY_INSTANCE_METHODS_UIView_$_WebCacheOperation
 __OBJC_$_CATEGORY_UIView_$_WebCacheOperation
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIView+WebCacheOperation.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIView+WebCacheOperation.m
 SDWebImage/Core/UIView+WebCacheOperation.m
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDAnimatedImageRep.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDAnimatedImageRep.m
 -[UIImageView(HighlightedWebCache) sd_setHighlightedImageWithURL:]
 -[UIImageView(HighlightedWebCache) sd_setHighlightedImageWithURL:options:]
 -[UIImageView(HighlightedWebCache) sd_setHighlightedImageWithURL:options:context:]
@@ -2658,7 +2658,7 @@ ___101-[UIImageView(HighlightedWebCache) sd_setHighlightedImageWithURL:options:c
 ___block_descriptor_40_e8_32w_e41_v40?0"UIImage"8"NSData"16q24"NSURL"32l
 __OBJC_$_CATEGORY_INSTANCE_METHODS_UIImageView_$_HighlightedWebCache
 __OBJC_$_CATEGORY_UIImageView_$_HighlightedWebCache
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIImageView+HighlightedWebCache.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIImageView+HighlightedWebCache.m
 __101-[UIImageView(HighlightedWebCache) sd_setHighlightedImageWithURL:options:context:progress:completed:]_block_invoke.12
 SDWebImage/Core/UIImageView+HighlightedWebCache.m
 __101-[UIImageView(HighlightedWebCache) sd_setHighlightedImageWithURL:options:context:progress:completed:]_block_invoke
@@ -2827,7 +2827,7 @@ __OBJC_$_CATEGORY_INSTANCE_METHODS_SDImageCache_$_SDImageCache
 __OBJC_CATEGORY_PROTOCOLS_$_SDImageCache_$_SDImageCache
 __OBJC_$_PROP_LIST_SDImageCache_$_SDImageCache
 __OBJC_$_CATEGORY_SDImageCache_$_SDImageCache
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageCache.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDImageCache.m
 SDWebImage/Core/SDImageCache.m
 __71-[SDImageCache(SDImageCache) containsImageForKey:cacheType:completion:]_block_invoke.366
 __71-[SDImageCache(SDImageCache) containsImageForKey:cacheType:completion:]_block_invoke
@@ -2917,7 +2917,7 @@ ___block_descriptor_88_e8_32s40s48bs56s64s72s_e8_v12?0B8l
 __OBJC_$_CATEGORY_INSTANCE_METHODS_UIView_$_WebCache
 __OBJC_$_PROP_LIST_UIView_$_WebCache
 __OBJC_$_CATEGORY_UIView_$_WebCache
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIView+WebCache.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIView+WebCache.m
 __41-[UIView(WebCache) sd_stopImageIndicator]_block_invoke_2
 SDWebImage/Core/UIView+WebCache.m
 __41-[UIView(WebCache) sd_stopImageIndicator]_block_invoke
@@ -2955,12 +2955,12 @@ _OBJC_CLASSLIST_REFERENCES_$_.30
 __OBJC_$_CATEGORY_INSTANCE_METHODS_UIImage_$_Metadata
 __OBJC_$_PROP_LIST_UIImage_$_Metadata
 __OBJC_$_CATEGORY_UIImage_$_Metadata
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIImage+Metadata.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/UIImage+Metadata.m
 SDWebImage/Core/UIImage+Metadata.m
 __OBJC_CATEGORY_PROTOCOLS_$_NSOperation_$_SDWebImageOperation
 __OBJC_$_PROP_LIST_NSOperation_$_SDWebImageOperation
 __OBJC_$_CATEGORY_NSOperation_$_SDWebImageOperation
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageOperation.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageOperation.m
 -[SDWebImageCacheSerializer initWithBlock:]
 +[SDWebImageCacheSerializer cacheSerializerWithBlock:]
 -[SDWebImageCacheSerializer cacheDataWithImage:originalData:imageURL:]
@@ -2980,7 +2980,7 @@ _OBJC_IVAR_$_SDWebImageCacheSerializer._block
 __OBJC_$_INSTANCE_VARIABLES_SDWebImageCacheSerializer
 __OBJC_$_PROP_LIST_SDWebImageCacheSerializer
 __OBJC_CLASS_RO_$_SDWebImageCacheSerializer
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageCacheSerializer.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Core/SDWebImageCacheSerializer.m
 SDWebImage/Core/SDWebImageCacheSerializer.m
 -[SDImageCachesManagerOperation init]
 -[SDImageCachesManagerOperation beginWithTotalCount:]
@@ -3006,7 +3006,7 @@ __OBJC_$_INSTANCE_METHODS_SDImageCachesManagerOperation
 __OBJC_$_INSTANCE_VARIABLES_SDImageCachesManagerOperation
 __OBJC_$_PROP_LIST_SDImageCachesManagerOperation
 __OBJC_CLASS_RO_$_SDImageCachesManagerOperation
-/Users/kajimurarita/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/SDImageCachesManagerOperation.m
+/Users/tachiyoshiki/hackathon_2020_b_ios/Carthage/Checkouts/SDWebImage/SDWebImage/Private/SDImageCachesManagerOperation.m
 SDWebImage/Private/SDImageCachesManagerOperation.m
 __ZL15__ARCLite__loadv
 __ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
