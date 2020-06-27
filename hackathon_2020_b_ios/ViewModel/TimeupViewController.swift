@@ -105,7 +105,7 @@ let SendButton : UIButton = {
 
   func senderView() {
     let controller = WaitingViewController()
-    //controller.count = timeUpCount
+    controller.count = timeUpCount
     navigationController?.pushViewController(controller, animated: true)
   }
 

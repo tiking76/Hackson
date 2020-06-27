@@ -48,7 +48,7 @@ class WaitingViewController: ViewController {
 
   //タイマー作成
   func createTimer(){
-    count = userTimer * 10
+    //count = userTimer * 10
 
     let timer = Timer.scheduledTimer(timeInterval: 1.0,
             target: self,
