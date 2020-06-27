@@ -1,2 +1,3 @@
 github "SDWebImage/SDWebImage"
 github "daltoniam/Starscream"
+github "Alamofire/Alamofire"

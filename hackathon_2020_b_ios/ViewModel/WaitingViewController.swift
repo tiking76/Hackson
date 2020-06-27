@@ -8,6 +8,11 @@
 import UIKit
 
 class WaitingViewController: ViewController {
+    
+    var count = 0
+    let userTimer:Int = 1
+
+    
 
   // MARK: - Properties
   private let state1label: UILabel = {
@@ -20,7 +25,7 @@ class WaitingViewController: ViewController {
 
   lazy var timeLabel: UILabel = {
     let label = UILabel()
-    label.text = "60"
+    label.text = "\(self.count)"
     label.textColor = .black
     label.font = UIFont.boldSystemFont(ofSize: 40)
     return label
@@ -38,6 +43,37 @@ class WaitingViewController: ViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     configureUI()
+    createTimer()
+  }
+
+  //タイマー作成
+  func createTimer(){
+    count = userTimer * 10
+
+    let timer = Timer.scheduledTimer(timeInterval: 1.0,
+            target: self,
+            selector: #selector(self.timerAction(sender:)),
+            userInfo: nil,
+            repeats: true)
+    timer.fire()
+
+  }
+
+
+  //タイマーの処理
+  @objc func timerAction(sender:Timer){
+    timeLabel.text = String(count)
+    if count == 0{
+      sender.invalidate() //止める
+      senderView()
+    }
+    self.count -= 1
+  }
+
+
+  func senderView() {
+    let controller = TimeUpViewController()
+    navigationController?.pushViewController(controller, animated: true)
   }
 
   // MARK: - Helpers
@@ -50,6 +86,6 @@ class WaitingViewController: ViewController {
     timeLabel.anchor(top:state1label.bottomAnchor, left: view.leftAnchor, paddingTop: 80, paddingLeft: 180)
     view.addSubview(state2label)
     state2label.anchor(top:timeLabel.bottomAnchor, left: view.leftAnchor, paddingTop: 200, paddingLeft: 60)
-    
   }
+
 }

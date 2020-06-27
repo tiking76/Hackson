@@ -50,8 +50,8 @@ class MatchingViewController: ViewController {
   // MARK: - Selectors
 
   @objc func handleNext(){
-//        let controller = WaitingViewController()
-//        navigationController?.pushViewController(controller, animated: true)
+        let controller = TimeUpViewController()
+        navigationController?.pushViewController(controller, animated: true)
   }
 
   // MARK: - Helper

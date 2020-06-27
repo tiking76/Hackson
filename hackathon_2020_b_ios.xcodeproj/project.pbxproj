@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11CBC2DE24A7ED63007CC5E3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CBC2DD24A7ED63007CC5E3 /* Alamofire.framework */; };
+		11CBC2DF24A7ED63007CC5E3 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 11CBC2DD24A7ED63007CC5E3 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		11CBC2E224A7ED71007CC5E3 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CBC2E124A7ED71007CC5E3 /* Starscream.framework */; };
+		11CBC2E324A7ED71007CC5E3 /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 11CBC2E124A7ED71007CC5E3 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		11CDD90524A6DF4D006EDEBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDD90424A6DF4D006EDEBB /* AppDelegate.swift */; };
 		11CDD90724A6DF4D006EDEBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDD90624A6DF4D006EDEBB /* SceneDelegate.swift */; };
 		11CDD90924A6DF4D006EDEBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDD90824A6DF4D006EDEBB /* ViewController.swift */; };
@@ -19,6 +23,7 @@
 		DAC7631824A6F692004F8D3C /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC7631724A6F692004F8D3C /* Extentions.swift */; };
 		DAC7631A24A6FC72004F8D3C /* Main.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC7631924A6FC72004F8D3C /* Main.Storyboard */; };
 		FB7740AF2DCDF70301F65704 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB774793248D8F273E09CD26 /* User.swift */; };
+		FB7743F1ADFD7984F6CA8E23 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77420B31A720F0CC551176 /* EndPointType.swift */; };
 		FB7745CBF014D01AA2F81C0B /* EditProfileFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77489F8AA7C42F94606762 /* EditProfileFooter.swift */; };
 		FB7746471D2934E221B375CB /* TimeupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB774D9E6FBAB01626681FFC /* TimeupViewController.swift */; };
 		FB77465CD425B63CE21AE76B /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7740C02065F1293C6CE59F /* LoadingViewController.swift */; };
@@ -28,11 +33,29 @@
 		FB774AFA2D0BAC259588A638 /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB774DC38896D6CC820369A4 /* InputTextView.swift */; };
 		FB774C04F34DB6AED996153A /* EditProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7743974F92A24732FF46E2 /* EditProfileHeader.swift */; };
 		FB774CA579CBB76429E87B4C /* EditProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB774963DAA2FCFE41636803 /* EditProfileCell.swift */; };
+		FB774CACA99DED87E92658B3 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB774455DDD111C30A2FED11 /* APIClient.swift */; };
 		FB774CB007E3C789401A67F6 /* WaitingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7742E198A44437FAD5BE85 /* WaitingViewController.swift */; };
 		FB774D1BE3DEB5F2ACCB8512 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77449795378FC4D03F824C /* MyPageViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		11CBC2E024A7ED63007CC5E3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				11CBC2DF24A7ED63007CC5E3 /* Alamofire.framework in Embed Frameworks */,
+				11CBC2E324A7ED71007CC5E3 /* Starscream.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		11CBC2DD24A7ED63007CC5E3 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		11CBC2E124A7ED71007CC5E3 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
 		11CDD90124A6DF4D006EDEBB /* hackathon_2020_b_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackathon_2020_b_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CDD90424A6DF4D006EDEBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11CDD90624A6DF4D006EDEBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,8 +71,10 @@
 		DAC7631924A6FC72004F8D3C /* Main.Storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.Storyboard; sourceTree = "<group>"; };
 		FB774044BE5711D4E62E92BB /* MatchingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchingViewController.swift; sourceTree = "<group>"; };
 		FB7740C02065F1293C6CE59F /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		FB77420B31A720F0CC551176 /* EndPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
 		FB7742E198A44437FAD5BE85 /* WaitingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingViewController.swift; sourceTree = "<group>"; };
 		FB7743974F92A24732FF46E2 /* EditProfileHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileHeader.swift; sourceTree = "<group>"; };
+		FB774455DDD111C30A2FED11 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		FB77449795378FC4D03F824C /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		FB774793248D8F273E09CD26 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FB774862755D9EE2C052F431 /* EditProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
@@ -66,6 +91,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				11CDD91C24A6E44A006EDEBB /* SDWebImageMapKit.framework in Frameworks */,
+				11CBC2E224A7ED71007CC5E3 /* Starscream.framework in Frameworks */,
+				11CBC2DE24A7ED63007CC5E3 /* Alamofire.framework in Frameworks */,
 				11CDD91A24A6E43C006EDEBB /* SDWebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,6 +109,15 @@
 				FB7743974F92A24732FF46E2 /* EditProfileHeader.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		11CBC2DC24A7EBA8007CC5E3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FB774455DDD111C30A2FED11 /* APIClient.swift */,
+				FB77420B31A720F0CC551176 /* EndPointType.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 		11CDD8F824A6DF4D006EDEBB = {
@@ -104,6 +140,7 @@
 		11CDD90324A6DF4D006EDEBB /* hackathon_2020_b_ios */ = {
 			isa = PBXGroup;
 			children = (
+				11CBC2DC24A7EBA8007CC5E3 /* API */,
 				119BCE7024A718AC00C10D2E /* View */,
 				DAC7631624A6F686004F8D3C /* Utilities */,
 				DAC7631124A6F3D2004F8D3C /* ViewModel */,
@@ -122,6 +159,8 @@
 		11CDD91824A6E43C006EDEBB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				11CBC2E124A7ED71007CC5E3 /* Starscream.framework */,
+				11CBC2DD24A7ED63007CC5E3 /* Alamofire.framework */,
 				11CDD91B24A6E44A006EDEBB /* SDWebImageMapKit.framework */,
 				11CDD91924A6E43C006EDEBB /* SDWebImage.framework */,
 			);
@@ -171,6 +210,7 @@
 				11CDD8FE24A6DF4D006EDEBB /* Frameworks */,
 				11CDD8FF24A6DF4D006EDEBB /* Resources */,
 				11CDD91D24A6E47B006EDEBB /* ShellScript */,
+				11CBC2E024A7ED63007CC5E3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,6 +312,8 @@
 				FB774CB007E3C789401A67F6 /* WaitingViewController.swift in Sources */,
 				FB774953E1F52D578D2D3B25 /* MatchingViewController.swift in Sources */,
 				FB7746471D2934E221B375CB /* TimeupViewController.swift in Sources */,
+				FB774CACA99DED87E92658B3 /* APIClient.swift in Sources */,
+				FB7743F1ADFD7984F6CA8E23 /* EndPointType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

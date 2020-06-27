@@ -1,10 +1,9 @@
-/
+
 // Created by 舘佳紀 on 2020/06/27.
 // Copyright (c) 2020 Yoshiki Tachi. All rights reserved.
 //
-​
 import UIKit
-​
+
 class LoadingViewController: UIViewController {
 
   // MARK: - Properties
@@ -47,9 +46,6 @@ class LoadingViewController: UIViewController {
   }
 
   // MARK: - Helpers
-
-
-        ​
   func configureUI(){
     view.addSubview(ContextLabel)
     ContextLabel.anchor(top: view.safeAreaLayoutGuide.topAnchor,

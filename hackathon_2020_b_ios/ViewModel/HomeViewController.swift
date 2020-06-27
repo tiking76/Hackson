@@ -63,12 +63,14 @@ class HomeViewController: UIViewController {
 
   @objc func ButtonTapped30() {
     self.TimeCount += 30
-    //prepare(for: LoadingView, sender: nil)
+    let controller = LoadingViewController()
+    navigationController?.pushViewController(controller, animated: true)
   }
 
   @objc func ButtonTapped60() {
     self.TimeCount += 60
-    //prepare(for: loadingView, sender: nil)
+    let controller = LoadingViewController()
+    navigationController?.pushViewController(controller, animated: true)
   }
 
   func configureUI(){
