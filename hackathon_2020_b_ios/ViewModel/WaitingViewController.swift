@@ -5,9 +5,8 @@
 //  Created by 梶村律太 on 2020/06/27.
 //  Copyright © 2020 Yoshiki Tachi. All rights reserved.
 //
-​
 import UIKit
-​
+
 class WaitingViewController: ViewController {
 
   // MARK: - Properties
@@ -51,6 +50,6 @@ class WaitingViewController: ViewController {
     timeLabel.anchor(top:state1label.bottomAnchor, left: view.leftAnchor, paddingTop: 80, paddingLeft: 180)
     view.addSubview(state2label)
     state2label.anchor(top:timeLabel.bottomAnchor, left: view.leftAnchor, paddingTop: 200, paddingLeft: 60)
-    ​
+    
   }
 }

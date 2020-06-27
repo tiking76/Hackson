@@ -20,6 +20,7 @@
 		DAC7631A24A6FC72004F8D3C /* Main.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC7631924A6FC72004F8D3C /* Main.Storyboard */; };
 		FB7740AF2DCDF70301F65704 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB774793248D8F273E09CD26 /* User.swift */; };
 		FB7745CBF014D01AA2F81C0B /* EditProfileFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77489F8AA7C42F94606762 /* EditProfileFooter.swift */; };
+		FB7746471D2934E221B375CB /* TimeupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB774D9E6FBAB01626681FFC /* TimeupViewController.swift */; };
 		FB77465CD425B63CE21AE76B /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7740C02065F1293C6CE59F /* LoadingViewController.swift */; };
 		FB7748695FEC87D307834CBA /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB774862755D9EE2C052F431 /* EditProfileViewModel.swift */; };
 		FB774953E1F52D578D2D3B25 /* MatchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB774044BE5711D4E62E92BB /* MatchingViewController.swift */; };
@@ -55,6 +56,7 @@
 		FB77489F8AA7C42F94606762 /* EditProfileFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileFooter.swift; sourceTree = "<group>"; };
 		FB77495F3BFE6A9552BEAA38 /* EdtiProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdtiProfileController.swift; sourceTree = "<group>"; };
 		FB774963DAA2FCFE41636803 /* EditProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileCell.swift; sourceTree = "<group>"; };
+		FB774D9E6FBAB01626681FFC /* TimeupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeupViewController.swift; sourceTree = "<group>"; };
 		FB774DC38896D6CC820369A4 /* InputTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +139,7 @@
 				FB774862755D9EE2C052F431 /* EditProfileViewModel.swift */,
 				FB7742E198A44437FAD5BE85 /* WaitingViewController.swift */,
 				FB774044BE5711D4E62E92BB /* MatchingViewController.swift */,
+				FB774D9E6FBAB01626681FFC /* TimeupViewController.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				FB7748695FEC87D307834CBA /* EditProfileViewModel.swift in Sources */,
 				FB774CB007E3C789401A67F6 /* WaitingViewController.swift in Sources */,
 				FB774953E1F52D578D2D3B25 /* MatchingViewController.swift in Sources */,
+				FB7746471D2934E221B375CB /* TimeupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
