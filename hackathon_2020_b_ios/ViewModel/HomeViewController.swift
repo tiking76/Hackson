@@ -63,7 +63,7 @@ class HomeViewController: UIViewController {
 
   @objc func ButtonTapped30() {
     self.TimeCount += 30
-    ///prepare(for: loadingView, sender: nil)
+    //prepare(for: LoadingView, sender: nil)
   }
 
   @objc func ButtonTapped60() {

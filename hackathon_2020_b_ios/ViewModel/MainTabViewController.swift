@@ -1,4 +1,4 @@
-//
+
 //  MainTabViewController.swift
 //  hackathon_2020_b_ios
 //
@@ -9,12 +9,12 @@
 import UIKit
 
 class MainTabViewController: UITabBarController {
-    
+
     // MARK: - Properties
-    
-    
+
+
     //MARK: - Lifecycle
- 
+
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViewController()
@@ -22,9 +22,9 @@ class MainTabViewController: UITabBarController {
         guard let home = nav.viewControllers.first as? HomeViewController else { return }
     }
     // MARK: - API
-
-   
     
+
+
 //    func authenticateUserAndConfigureUI() {
 //        if Auth.auth().currentUser == nil {
 //            DispatchQueue.main.async {
@@ -38,25 +38,27 @@ class MainTabViewController: UITabBarController {
 //            fetchUser()
 //        }
 //    }
-    
+
     // MARK: - Selectors
-    
-    
+
+
     // MARK: - Helpers
 //    func configureUI(){
 //
 //    }
 //
 //
-    func configureViewController(){
+    func configureViewController() {
         let home = HomeViewController()
         let nav1 = templeteNavigationController(image: UIImage(named: "home_unselected")!, rootViewController: home)
-
-
-
-        viewControllers = [nav1]
+        let mypage = MyPageViewController()
+        let nav2 = templeteNavigationController(image: UIImage(named: "ic_person_outline_white_2x")!, rootViewController: mypage)
+        
+        
+        
+        viewControllers = [nav1, nav2]
     }
-
+        
     func templeteNavigationController(image:UIImage,rootViewController:UIViewController)->UINavigationController {
         let nav = UINavigationController(rootViewController: rootViewController)
         nav.tabBarItem.image = image
@@ -64,4 +66,3 @@ class MainTabViewController: UITabBarController {
         return nav
     }
 }
-
