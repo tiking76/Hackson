@@ -18,6 +18,8 @@ class MainTabViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViewController()
+        guard let nav = viewControllers?[0] as? UINavigationController else { return }
+        guard let home = nav.viewControllers.first as? HomeViewController else { return }
     }
     // MARK: - API
 
@@ -41,20 +43,20 @@ class MainTabViewController: UITabBarController {
     
     
     // MARK: - Helpers
-    func configureUI(){
-        
-    }
-    
-    
+//    func configureUI(){
+//
+//    }
+//
+//
     func configureViewController(){
         let home = HomeViewController()
         let nav1 = templeteNavigationController(image: UIImage(named: "home_unselected")!, rootViewController: home)
-        
-        
-        
+
+
+
         viewControllers = [nav1]
     }
-    
+
     func templeteNavigationController(image:UIImage,rootViewController:UIViewController)->UINavigationController {
         let nav = UINavigationController(rootViewController: rootViewController)
         nav.tabBarItem.image = image
