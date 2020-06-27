@@ -10,9 +10,10 @@
 		11CDD90524A6DF4D006EDEBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDD90424A6DF4D006EDEBB /* AppDelegate.swift */; };
 		11CDD90724A6DF4D006EDEBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDD90624A6DF4D006EDEBB /* SceneDelegate.swift */; };
 		11CDD90924A6DF4D006EDEBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDD90824A6DF4D006EDEBB /* ViewController.swift */; };
-		11CDD90C24A6DF4D006EDEBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CDD90A24A6DF4D006EDEBB /* Main.storyboard */; };
 		11CDD90E24A6DF4E006EDEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CDD90D24A6DF4E006EDEBB /* Assets.xcassets */; };
 		11CDD91124A6DF4E006EDEBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CDD90F24A6DF4E006EDEBB /* LaunchScreen.storyboard */; };
+		11CDD91A24A6E43C006EDEBB /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDD91924A6E43C006EDEBB /* SDWebImage.framework */; };
+		11CDD91C24A6E44A006EDEBB /* SDWebImageMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDD91B24A6E44A006EDEBB /* SDWebImageMapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,11 @@
 		11CDD90424A6DF4D006EDEBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11CDD90624A6DF4D006EDEBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		11CDD90824A6DF4D006EDEBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		11CDD90B24A6DF4D006EDEBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11CDD90D24A6DF4E006EDEBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11CDD91024A6DF4E006EDEBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11CDD91224A6DF4E006EDEBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11CDD91924A6E43C006EDEBB /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+		11CDD91B24A6E44A006EDEBB /* SDWebImageMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImageMapKit.framework; path = Carthage/Build/iOS/SDWebImageMapKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11CDD91C24A6E44A006EDEBB /* SDWebImageMapKit.framework in Frameworks */,
+				11CDD91A24A6E43C006EDEBB /* SDWebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +46,7 @@
 			children = (
 				11CDD90324A6DF4D006EDEBB /* hackathon_2020_b_ios */,
 				11CDD90224A6DF4D006EDEBB /* Products */,
+				11CDD91824A6E43C006EDEBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +64,20 @@
 				11CDD90424A6DF4D006EDEBB /* AppDelegate.swift */,
 				11CDD90624A6DF4D006EDEBB /* SceneDelegate.swift */,
 				11CDD90824A6DF4D006EDEBB /* ViewController.swift */,
-				11CDD90A24A6DF4D006EDEBB /* Main.storyboard */,
 				11CDD90D24A6DF4E006EDEBB /* Assets.xcassets */,
 				11CDD90F24A6DF4E006EDEBB /* LaunchScreen.storyboard */,
 				11CDD91224A6DF4E006EDEBB /* Info.plist */,
 			);
 			path = hackathon_2020_b_ios;
+			sourceTree = "<group>";
+		};
+		11CDD91824A6E43C006EDEBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11CDD91B24A6E44A006EDEBB /* SDWebImageMapKit.framework */,
+				11CDD91924A6E43C006EDEBB /* SDWebImage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +90,7 @@
 				11CDD8FD24A6DF4D006EDEBB /* Sources */,
 				11CDD8FE24A6DF4D006EDEBB /* Frameworks */,
 				11CDD8FF24A6DF4D006EDEBB /* Resources */,
+				11CDD91D24A6E47B006EDEBB /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -127,11 +141,32 @@
 			files = (
 				11CDD91124A6DF4E006EDEBB /* LaunchScreen.storyboard in Resources */,
 				11CDD90E24A6DF4E006EDEBB /* Assets.xcassets in Resources */,
-				11CDD90C24A6DF4D006EDEBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11CDD91D24A6E47B006EDEBB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SDWebImageMapKit.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		11CDD8FD24A6DF4D006EDEBB /* Sources */ = {
@@ -147,14 +182,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		11CDD90A24A6DF4D006EDEBB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				11CDD90B24A6DF4D006EDEBB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		11CDD90F24A6DF4E006EDEBB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,6 +312,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = hackathon_2020_b_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +333,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = hackathon_2020_b_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
