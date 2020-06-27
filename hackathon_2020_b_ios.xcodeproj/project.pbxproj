@@ -14,6 +14,9 @@
 		11CDD91124A6DF4E006EDEBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CDD90F24A6DF4E006EDEBB /* LaunchScreen.storyboard */; };
 		11CDD91A24A6E43C006EDEBB /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDD91924A6E43C006EDEBB /* SDWebImage.framework */; };
 		11CDD91C24A6E44A006EDEBB /* SDWebImageMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDD91B24A6E44A006EDEBB /* SDWebImageMapKit.framework */; };
+		DAC7631324A6F3FF004F8D3C /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC7631224A6F3FF004F8D3C /* MainTabViewController.swift */; };
+		DAC7631524A6F56C004F8D3C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC7631424A6F56C004F8D3C /* HomeViewController.swift */; };
+		DAC7631824A6F692004F8D3C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC7631724A6F692004F8D3C /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		11CDD91224A6DF4E006EDEBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11CDD91924A6E43C006EDEBB /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
 		11CDD91B24A6E44A006EDEBB /* SDWebImageMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImageMapKit.framework; path = Carthage/Build/iOS/SDWebImageMapKit.framework; sourceTree = "<group>"; };
+		DAC7631224A6F3FF004F8D3C /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		DAC7631424A6F56C004F8D3C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DAC7631724A6F692004F8D3C /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,8 @@
 		11CDD90324A6DF4D006EDEBB /* hackathon_2020_b_ios */ = {
 			isa = PBXGroup;
 			children = (
+				DAC7631624A6F686004F8D3C /* Utilities */,
+				DAC7631124A6F3D2004F8D3C /* Controller */,
 				11CDD90424A6DF4D006EDEBB /* AppDelegate.swift */,
 				11CDD90624A6DF4D006EDEBB /* SceneDelegate.swift */,
 				11CDD90824A6DF4D006EDEBB /* ViewController.swift */,
@@ -78,6 +86,23 @@
 				11CDD91924A6E43C006EDEBB /* SDWebImage.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAC7631124A6F3D2004F8D3C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DAC7631224A6F3FF004F8D3C /* MainTabViewController.swift */,
+				DAC7631424A6F56C004F8D3C /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DAC7631624A6F686004F8D3C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DAC7631724A6F692004F8D3C /* File.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,7 +198,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC7631524A6F56C004F8D3C /* HomeViewController.swift in Sources */,
+				DAC7631824A6F692004F8D3C /* File.swift in Sources */,
 				11CDD90924A6DF4D006EDEBB /* ViewController.swift in Sources */,
+				DAC7631324A6F3FF004F8D3C /* MainTabViewController.swift in Sources */,
 				11CDD90524A6DF4D006EDEBB /* AppDelegate.swift in Sources */,
 				11CDD90724A6DF4D006EDEBB /* SceneDelegate.swift in Sources */,
 			);
