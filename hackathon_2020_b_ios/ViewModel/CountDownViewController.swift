@@ -31,25 +31,27 @@ class CountDownViewController: UIViewController {
 
     lazy var  MinDownLabel : UILabel = {
         let label = UILabel()
-        label.text = "\(self.min)"
-        label.font = .boldSystemFont(ofSize: 100)
+        label.text = "0\(self.min)"
+        label.font = .boldSystemFont(ofSize: 80)
         return label
     }()
 
     let ColonLabel: UILabel = {
         let label = UILabel()
-        label.text = ""
+        label.text = ":"
         label.textColor = .black
-        label.font = .boldSystemFont(ofSize: 200)
+        label.font = .boldSystemFont(ofSize: 80)
         return label
     }()
 
     lazy var  SecDownLabel : UILabel = {
         let label = UILabel()
         label.text = "\(self.sec)"
-        label.font = .boldSystemFont(ofSize: 100)
+        label.font = .boldSystemFont(ofSize: 80)
         return label
     }()
+
+
 
     //タイマー作成
     func createTimer(){
@@ -63,7 +65,7 @@ class CountDownViewController: UIViewController {
 
     //タイマーの処理
     @objc func timerAction(sender:Timer){
-        MinDownLabel.text = String(min)
+        MinDownLabel.text = "0"+String(min)
         SecDownLabel.text = String(sec)
 
 
@@ -71,9 +73,10 @@ class CountDownViewController: UIViewController {
             if min > 0{
                 min -= 1
             }
-            if min <= 0 {
+            if min < 10 {
                 tmp -= 1
-                MinDownLabel.text = "0\(tmp)"
+                MinDownLabel.text = "0\(min)"
+                SecDownLabel.text = "0\(tmp)"
                 if tmp == 0 {
                     sender.invalidate() //止める
                     senderView()
@@ -94,12 +97,13 @@ class CountDownViewController: UIViewController {
     func configureUI(){
         view.backgroundColor = .white
         view.addSubview(ContextLabel)
-        view.addSubview(MinDownLabel)
-        view.addSubview(ColonLabel)
-        view.addSubview(SecDownLabel)
         ContextLabel.anchor(top:view.topAnchor, left: view.leftAnchor, paddingTop: 200, paddingLeft: 140)
-        MinDownLabel.anchor(top:ColonLabel.bottomAnchor, left: view.leftAnchor, paddingTop: 400, paddingLeft: 100)
-        ColonLabel.anchor(top:ColonLabel.bottomAnchor, left: MinDownLabel.leftAnchor, paddingTop: 400, paddingLeft: 60)
-        SecDownLabel.anchor(top:ColonLabel.bottomAnchor, left: ColonLabel.leftAnchor, paddingTop: 400, paddingLeft: 60)
+        let stackView = UIStackView(arrangedSubviews: [MinDownLabel, ColonLabel, SecDownLabel])
+        view.addSubview(stackView)
+        stackView.anchor(top:view.topAnchor, left: view.leftAnchor, paddingTop: 300, paddingLeft: 50)
+        stackView.axis = .horizontal
+        stackView.spacing = 30
+
     }
 }
+
