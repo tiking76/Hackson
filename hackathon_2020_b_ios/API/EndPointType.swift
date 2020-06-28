@@ -7,8 +7,9 @@ import Foundation
 
 enum EndPointType : String {
   case resistUse = "/users"
-  case getUser = "/users/:id"
+  case getUser = "/users/:user_id"
+  case resisterTask = "/:user_id/tasks"
   case resistTime = "/tasks"
-  case resistDeliverable = "/deliverables"
-  case resistEvaluations = "/evaluations"
+  case resistDeliverable = "/:user_id/tasks/:task_id/deliverables"
+  case resistEvaluations = "/:user_id/tasks/:task_id/deliverables/:deliverable_id/evaluations"
 }

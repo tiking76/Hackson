@@ -11,6 +11,7 @@
 		11CBC2DF24A7ED63007CC5E3 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 11CBC2DD24A7ED63007CC5E3 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		11CBC2E224A7ED71007CC5E3 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CBC2E124A7ED71007CC5E3 /* Starscream.framework */; };
 		11CBC2E324A7ED71007CC5E3 /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 11CBC2E124A7ED71007CC5E3 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		11CBC2E524A81B15007CC5E3 /* CountDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CBC2E424A81B15007CC5E3 /* CountDownViewController.swift */; };
 		11CDD90524A6DF4D006EDEBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDD90424A6DF4D006EDEBB /* AppDelegate.swift */; };
 		11CDD90724A6DF4D006EDEBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDD90624A6DF4D006EDEBB /* SceneDelegate.swift */; };
 		11CDD90924A6DF4D006EDEBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDD90824A6DF4D006EDEBB /* ViewController.swift */; };
@@ -56,6 +57,7 @@
 /* Begin PBXFileReference section */
 		11CBC2DD24A7ED63007CC5E3 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		11CBC2E124A7ED71007CC5E3 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		11CBC2E424A81B15007CC5E3 /* CountDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownViewController.swift; sourceTree = "<group>"; };
 		11CDD90124A6DF4D006EDEBB /* hackathon_2020_b_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackathon_2020_b_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CDD90424A6DF4D006EDEBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11CDD90624A6DF4D006EDEBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				FB7742E198A44437FAD5BE85 /* WaitingViewController.swift */,
 				FB774044BE5711D4E62E92BB /* MatchingViewController.swift */,
 				FB774D9E6FBAB01626681FFC /* TimeupViewController.swift */,
+				11CBC2E424A81B15007CC5E3 /* CountDownViewController.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				DAC7631324A6F3FF004F8D3C /* MainTabViewController.swift in Sources */,
 				11CDD90524A6DF4D006EDEBB /* AppDelegate.swift in Sources */,
 				11CDD90724A6DF4D006EDEBB /* SceneDelegate.swift in Sources */,
+				11CBC2E524A81B15007CC5E3 /* CountDownViewController.swift in Sources */,
 				FB77465CD425B63CE21AE76B /* LoadingViewController.swift in Sources */,
 				FB7749EA6F0E583BDA7C02DD /* EdtiProfileController.swift in Sources */,
 				FB774D1BE3DEB5F2ACCB8512 /* MyPageViewController.swift in Sources */,
