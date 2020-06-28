@@ -14,7 +14,7 @@ class ReviewViewController: UIViewController {
 
   lazy var profileImageView: UIImageView = {
     let iv = UIImageView()
-    iv.image = UIImage(named: "")
+    iv.image = UIImage(named: "ES")
     iv.contentMode = .scaleAspectFill
     iv.clipsToBounds = true
     iv.backgroundColor = .lightGray

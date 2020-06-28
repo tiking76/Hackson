@@ -13,7 +13,7 @@ class MatchingViewController: ViewController {
 
   let profileImageView: UIImageView = {
     let iv = UIImageView()
-    iv.image = UIImage(named: "sakagami")
+    iv.image = UIImage(named: "minomonnta")
     iv.contentMode = .scaleAspectFill
     iv.clipsToBounds = true
     iv.backgroundColor = .lightGray
@@ -29,6 +29,8 @@ class MatchingViewController: ViewController {
     label.font = UIFont.systemFont(ofSize: 24)
     return label
   }()
+    
+    
   private let nextButton: UIButton = {
     let button = UIButton(type: .system)
     button.setTitle("次へ", for: .normal)
@@ -57,7 +59,7 @@ class MatchingViewController: ViewController {
   // MARK: - Helper
 
   func configureUI(){
-    view.backgroundColor = .blue
+    view.backgroundColor = .white
     view.addSubview(profileImageView)
 
     profileImageView.setDimensions(width: 100, height: 100)

@@ -24,9 +24,12 @@ class LoadingViewController: UIViewController {
   private let nextButton: UIButton = {
     let button = UIButton(type: .system)
     button.setTitle("次へ", for: .normal)
+    button.setDimensions(width: 300, height: 50)
+    button.layer.cornerRadius = 50 / 2
     button.addTarget(self, action: #selector(handleNext), for: .touchUpInside)
     button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 14)
     button.setTitleColor(.white, for: .normal)
+    button.backgroundColor = .twitterBlue
     return button
   }()
 
@@ -35,7 +38,7 @@ class LoadingViewController: UIViewController {
 
   override func viewDidLoad(){
     super.viewDidLoad()
-    view.backgroundColor = .twitterBlue
+    view.backgroundColor = .white
     configureUI()
   }
   // MARK: - Selectors
@@ -50,7 +53,7 @@ class LoadingViewController: UIViewController {
     view.addSubview(ContextLabel)
     ContextLabel.anchor(top: view.safeAreaLayoutGuide.topAnchor,
             right: view.safeAreaLayoutGuide.rightAnchor,
-            paddingTop: 30, paddingRight: 147, width: 100, height: 56)
+            paddingTop: 50, paddingRight: 147, width: 100, height: 56)
     ContextLabel.layer.cornerRadius = 56/2
 
     view.addSubview(activityIndicatorView)
@@ -64,7 +67,7 @@ class LoadingViewController: UIViewController {
       print("ロード中")
     }
     view.addSubview(nextButton)
-    nextButton.anchor(top:ContextLabel.bottomAnchor, right: view.safeAreaLayoutGuide.rightAnchor, paddingTop: 50, paddingRight: 180)
+    nextButton.anchor(top:ContextLabel.bottomAnchor, right: view.safeAreaLayoutGuide.rightAnchor, paddingTop: 300, paddingRight: 55)
   }
 
 }
