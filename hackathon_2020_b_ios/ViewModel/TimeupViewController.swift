@@ -105,14 +105,13 @@ let SendButton : UIButton = {
 
   func senderView() {
     let controller = WaitingViewController()
-    controller.count = timeUpCount
     navigationController?.pushViewController(controller, animated: true)
   }
 
 //タイマー作成
   func createTimer(){
     //デバック用に10秒
-    timeUpCount = userTimer * 60
+    timeUpCount = userTimer * 5
 
     let timer = Timer.scheduledTimer(timeInterval: 1.0,
             target: self,

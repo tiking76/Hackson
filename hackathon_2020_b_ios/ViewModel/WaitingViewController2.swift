@@ -1,3 +1,9 @@
+//
+// Created by 舘佳紀 on 2020/06/28.
+// Copyright (c) 2020 Yoshiki Tachi. All rights reserved.
+//
+
+import Foundation
 
 //  WaitingViewController.swift
 //  hackathon_2020_b_ios
@@ -7,12 +13,12 @@
 //
 import UIKit
 
-class WaitingViewController: ViewController {
-    
-    var count = 0
-    let userTimer:Int = 1
+class WaitingViewController2: ViewController {
 
-    
+  var count = 0
+  let userTimer:Int = 1
+
+
 
   // MARK: - Properties
   private let state1label: UILabel = {
@@ -72,7 +78,7 @@ class WaitingViewController: ViewController {
 
 
   func senderView() {
-    let controller = ReviewViewController()
+    let controller = ResultViewController()
     navigationController?.pushViewController(controller, animated: true)
   }
 

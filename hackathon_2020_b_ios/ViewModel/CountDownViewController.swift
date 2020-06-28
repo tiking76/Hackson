@@ -10,9 +10,9 @@ import UIKit
 
 class CountDownViewController: UIViewController {
 
-    var min = 1
-    var sec = 10
-    var tmp = 10
+    var min = 0
+    var sec = 0
+    var tmp = 5
 
 
     override func viewDidLoad() {

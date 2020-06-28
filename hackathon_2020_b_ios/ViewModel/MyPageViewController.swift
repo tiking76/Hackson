@@ -16,6 +16,8 @@ class MyPageViewController: UIViewController {
 
   // MARK: - Properties
 
+  var label : String?
+
   private var user: User?
 
   private lazy var containerView: UIView = {
@@ -24,7 +26,7 @@ class MyPageViewController: UIViewController {
     return view
   }()
 
-  private let profileImageView: UIImageView = {
+    var profileImageView: UIImageView = {
     let iv = UIImageView()
     iv.contentMode = .scaleAspectFit
     iv.clipsToBounds = true
@@ -44,20 +46,20 @@ class MyPageViewController: UIViewController {
     button.addTarget(self, action: #selector(handleEditProfile), for: .touchUpInside)
     return button
   }()
-  private let fullnameLabel: UILabel = {
+  var fullnameLabel: UILabel = {
     let label = UILabel()
     label.text = "namae"
     label.font = UIFont.boldSystemFont(ofSize: 20)
     return label
   }()
-  private let usernameLabel: UILabel = {
+  var usernameLabel: UILabel = {
     let label = UILabel()
     label.text = "namae"
     label.font = UIFont.systemFont(ofSize: 16)
     label.textColor = .lightGray
     return label
   }()
-  private let bionameLabel: UILabel = {
+  var bionameLabel: UILabel = {
     let label = UILabel()
     label.text = "namae"
     label.font = UIFont.systemFont(ofSize: 16)

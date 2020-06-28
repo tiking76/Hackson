@@ -28,6 +28,7 @@ class EditProfileController: UITableViewController {
   weak var delegate: EditProfileControllerDelegate?
   private var userInfoChange = false
 
+  var text : String = ""
   private var imageChanged: Bool {
     return selectedImage != nil
   }
@@ -67,7 +68,7 @@ class EditProfileController: UITableViewController {
 
 
   @objc func handleCancel(){
-    let controller = MyPageViewController()
+    let controller = ReviewViewController()
     controller.modalPresentationStyle = .pageSheet
     navigationController?.pushViewController(controller, animated: true)
   }
@@ -77,6 +78,8 @@ class EditProfileController: UITableViewController {
 //        updateUserData()
     let controller = MyPageViewController()
     controller.modalPresentationStyle = .pageSheet
+    controller.profileImageView.image = self.selectedImage
+    controller.fullnameLabel.text = self.text
     navigationController?.pushViewController(controller, animated: true)
   }
 
@@ -185,6 +188,7 @@ extension EditProfileController: EditProfileCellDelegate {
     case .name:
       guard let fullname = cell.infoTextField.text else { return }
       user?.name = fullname
+      self.text = fullname
     case .comment:
       guard let username = cell.infoTextField.text else { return }
       user?.comment = username
