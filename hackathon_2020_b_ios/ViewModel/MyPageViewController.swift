@@ -46,12 +46,16 @@ class MyPageViewController: UIViewController {
     button.addTarget(self, action: #selector(handleEditProfile), for: .touchUpInside)
     return button
   }()
+
+
   var fullnameLabel: UILabel = {
     let label = UILabel()
     label.text = "namae"
     label.font = UIFont.boldSystemFont(ofSize: 20)
     return label
   }()
+
+
   var usernameLabel: UILabel = {
     let label = UILabel()
     label.text = "namae"
@@ -59,6 +63,8 @@ class MyPageViewController: UIViewController {
     label.textColor = .lightGray
     return label
   }()
+
+
   var bionameLabel: UILabel = {
     let label = UILabel()
     label.text = "namae"
@@ -95,8 +101,6 @@ class MyPageViewController: UIViewController {
   }
         
 
-
-
   // MARK: - Selectors
 
   @objc func handleEditProfile(){
@@ -110,8 +114,6 @@ class MyPageViewController: UIViewController {
 
   func configureUI(){
     view.backgroundColor = .white
-
-
     view.addSubview(containerView)
     containerView.anchor(top: view.topAnchor, left: view.leftAnchor, right: view.rightAnchor, height: 108)
 

@@ -85,6 +85,7 @@ let SendButton : UIButton = {
       self.present(cameraPicker, animated: true, completion: nil)
     }
   }
+    
 
   func imagePickerController(_ picker: UIImagePickerController,didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
     //imageにアルバムで選択した画像が格納される
